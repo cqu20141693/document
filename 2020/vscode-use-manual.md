@@ -2,8 +2,8 @@
   - [1.1. 快捷键](#11-快捷键)
   - [1.2. 插件](#12-插件)
     - [1.2.1. markdown plugin](#121-markdown-plugin)
-  - [1.3. git plugin](#13-git-plugin)
-  - [1.4. vue plugin](#14-vue-plugin)
+    - [1.2.2. git plugin](#122-git-plugin)
+    - [1.2.3. vue plugin](#123-vue-plugin)
 - [2. 附录](#2-附录)
   - [2.1. 插件使用](#21-插件使用)
   - [2.2. 用户自定义settings](#22-用户自定义settings)
@@ -64,7 +64,7 @@
           图片导入提示：当输入图片路径的时候会有一定的搜索能力
       ```
 
-#### 1.3. git plugin
+##### 1.2.2. git plugin
 
 1. GitHub Authentication
 
@@ -86,7 +86,7 @@
 
 ```
 
-#### 1.4. vue plugin
+##### 1.2.3. vue plugin
 
 ### 2. 附录
 
