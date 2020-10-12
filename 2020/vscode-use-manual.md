@@ -14,6 +14,8 @@
 
 1. ctrl + ` : 打开终端
 2. ctrl + shift + P : 打开命令面板
+3. alt + shift + f : 格式化文档
+4. ctrl + [或者] ： 可以左右移动代码块
 
 ``` code
 输入settings ： 打开用户settings.json 可以进行自定义配置
@@ -31,25 +33,36 @@
     可以自动生成提示：ul img tab
 ```
 
-1. Markdown Preview enhanced
+2. Markdown Preview enhanced
+  
+   1. 
+      ``` code
 
-``` code
+          ctrl + shift + v ： previe 和源代码切换查看
+          直接打开命令面板： 输入export 即可选择输入各种文件类型
 
-    ctrl + shift + v ： previe 和源代码切换查看
-    ctrl + shift + P : 打开命令面板
-    快捷命令： 
-    enhanced image 快速引入图片,并会将图片放入assert中
-
-```
-
-![GetImage](/assets/GetImage.jpg)
-
-2. Markdown PDF
+          ctrl + k v：打开右侧预览，先同时按ctrl + k ,然后按v 即可,也可以右击选择
+          打开右侧预览后的新功能：    
+          可以右击输出各种格式的文件
+          打开命令面板： 
+          输入命令 image helper 快速引入图片,并会将图片放入assert中
+      ```
+   2. ![GetImage](/assets/GetImage.jpg)
+  
 3. Markdown All in One
+  
+  1. ![img](../assets/GetImage.jpg)
+  2. 功能介绍
+      ``` code
 
-``` code
-    快速生成目录：ctrl + shift + P 然后输入all in 
-```
+          打开命令面板： 
+          输入命令： all in creat content 生成目录
+          输入命令： all in update section number 更新序号
+          输入命令： all in update content 更新目录
+          
+          列表提示： 比如直接从目录一 enter 后自动生成目录二
+          图片导入提示：当输入图片路径的时候会有一定的搜索能力
+      ```
 
 #### 1.3. git plugin
 
@@ -58,10 +71,11 @@
 ``` code
   授权后可进行
   git clone
+  提交和撤回最新一次提交
   推送，拉取，合并代码
   分支创建和删除
-  
-  通过打开命令面板： 输入create/remve/push/pull/fetch/merge/clone
+
+  通过打开命令面板： 输入create/remve/push/pull/fetch/merge/clone/undo last commit
 ```
 
 2. GitLens
